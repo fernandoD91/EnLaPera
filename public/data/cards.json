@@ -1,0 +1,26 @@
+[
+  {
+  "id" : "1",
+  "text" : "texto1",
+  "img" : "http//imagen",
+  "drink" : "2"
+  },
+  {
+  "id" : "2",
+  "text" : "texto2",
+  "img" : "http//imagen",
+  "drink" : "2"
+  },
+  {
+  "id" : "3",
+  "text" : "texto3",
+  "img" : "http//imagen",
+  "drink" : "2"
+  },
+  {
+  "id" : "4",
+  "text" : "texto4",
+  "img" : "http//imagen",
+  "drink" : "2"
+  }
+]

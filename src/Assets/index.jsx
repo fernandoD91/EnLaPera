@@ -1,0 +1,1 @@
+export { default as IconPear } from './Assets/En-La-Pera-Icon-Provisorio.svg'
