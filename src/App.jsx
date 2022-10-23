@@ -1,6 +1,7 @@
 import './App.css'
 import { Home } from './Pages'
 import Cards from './componentes/organisms/Cards'
+import Logo from './componentes/atoms/Logo'
 
 function App() {
 
@@ -8,7 +9,10 @@ function App() {
     <div className="App">
       <Home/>
       <Cards/>
-    </div>
+      <Logo
+      size="home"
+      />
+     </div>
   )
 }
 
