@@ -1,0 +1,17 @@
+.btnLarge{
+  width: 30vw;
+  height: 10vh;
+}
+
+.btnSmall{
+  width: 15vw;
+  height: 5vh;
+}
+
+.btnGreen1{
+  background-color: #B2F583;
+}
+
+.btnGreen2{
+  background-color: #B5BC4F;
+}
