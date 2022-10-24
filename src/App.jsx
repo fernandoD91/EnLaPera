@@ -10,7 +10,7 @@ function App() {
       <Home/>
       <Cards/>
       <Logo
-      size="home"
+      size="mini"
       />
      </div>
   )

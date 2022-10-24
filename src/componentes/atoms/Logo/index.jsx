@@ -9,11 +9,11 @@ const Logo = (props
     <>
 
 
-        { <img 
+        <img 
             className={StyleLogo[props.size]}
             src='src\componentes\atoms\Logo\Logo.png'
-            alt={props.classLogo}/>
-        }
+            alt={props.size}/>
+        
 
     
     </>
