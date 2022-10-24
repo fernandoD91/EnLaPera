@@ -1,6 +1,8 @@
 import { filterProps } from '@formatjs/intl'
 import React from 'react'
 import StyleLogo from './style.module.css'
+import Logo1 from '/Assets/Logo.svg'
+
 
 
 const Logo = (props
@@ -11,7 +13,7 @@ const Logo = (props
 
         <img 
             className={StyleLogo[props.size]}
-            src='src\componentes\atoms\Logo\Logo.png'
+            src= {Logo1}
             alt={props.size}/>
         
 

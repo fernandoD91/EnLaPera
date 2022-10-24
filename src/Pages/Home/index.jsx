@@ -1,4 +1,4 @@
-import Icon from '../../Assets/En-La-Pera-Icon-Provisorio.svg'
+import Icon from '/Assets/Logo.svg'
 
 const Page = () => {
   return(
