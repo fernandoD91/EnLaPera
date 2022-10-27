@@ -29,12 +29,8 @@ function App() {
 
   return (
     <div className="App">
-      {/* <div >
-        {name.map((id) => {})}
-      </div>
-
-
-      <Buttons text={"hola no funcoPop"} btnAction={() => {addName()}}/> */}
+      <Home/>
+      <Cards/>
     </div>
   )
 }
