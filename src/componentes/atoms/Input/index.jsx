@@ -1,5 +1,3 @@
-import { useState } from "react";
-// import moduleStyle from './style.module.css';
 import moduleStyle from './style.module.css';
 
 const Input = ({impChange, name, mode}) => {

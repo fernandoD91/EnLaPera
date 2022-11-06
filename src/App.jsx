@@ -1,38 +1,22 @@
+import { BrowserRouter, Route, Routes, NavLink } from 'react-router-dom'
 import './App.css'
+import { ListUsers } from './componentes/organisms'
+import { Home } from './Pages'
 
 
 function App() {
 
-//   const [name, setName] = useState([""])
-//   const Hola = "Nombre"
-  
-//   function addName (){
-//     setName([{...name, Hola}])
-//   }
-// console.log(name);
- 
-
-  // function CardsData () {
-  //   fetch(name)
-  //     .then(response => response.json())
-  //     .then(datos => {
-  //       console.log(name);
-  //       console.log(response);
-  //       setName(name)
-  //     })
-
-  // }
-
-  // useEffect(() => {
-  //   CardsData()
-  // })
-
   return (
     <div className="App">
-      <Home/>
-      <Cards/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home/>}/>
+          <Route path='*' element={"Error 404"} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
 
 export default App
+
