@@ -1,5 +1,5 @@
 import './App.css'
-import { Home } from './Pages'
+import { GameMode, Home } from './Pages'
 import Cards from './componentes/organisms/Cards'
 import Input from './componentes/atoms/Inputs'
 import AddDrink from './componentes/organisms/DrinksCounter.jsx'
@@ -25,10 +25,13 @@ function App() {
       {/* <DrinksCounter lista={lista}/> */}
       
       {/* <Home/> */}
+      <GameMode />
+
 
       {/* <AddDrink listado={lista} /> */}
 
       <AddDrink listado={lista} id={1} nro={10}/>
+      {/* <AddDrink listado={lista} id={0} nro={5}/> */}
 
       {/* <Cards/>
       <label htmlFor="name">Ingrese nombres: </label>

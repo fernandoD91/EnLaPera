@@ -1,4 +1,5 @@
 import Icon from '../../Assets/En-La-Pera-Icon-Provisorio.svg'
+import Buttons from '../../componentes/atoms/Buttons';
 import Title from '../../componentes/atoms/Title';
 
 const GameMode = () => {
@@ -7,10 +8,10 @@ const GameMode = () => {
         <section>
             <Title type={'h1'} classTitle={'rojo'}>Vamos a jugar!</Title>
             <img src={Icon} alt="" />
-            <button>Jugar de una</button>
-            <button>Crear sala</button>
-            <button>Unirse a sala</button>
-            <button>Cómo jugar</button>
+            <Buttons text={'Jugar de una'}/>
+            <Buttons text={'Crear sala'}/>
+            <Buttons text={'Unirse a sala'}/>
+            <Buttons text={'Cómo jugar'}/>
         </section>
         
     );

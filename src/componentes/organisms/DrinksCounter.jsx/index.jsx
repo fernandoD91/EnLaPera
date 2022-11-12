@@ -11,28 +11,20 @@ const AddDrink = ({listado, id, nro}) => {
         console.log("Tragos que tiene: "+list[id].count);
         console.log("Toma: "+ nro +" tragos");
 
-        // const num= ()=>{
-        //     return list[id].count + nro;
-        //     // list[]
-        // }
-        // num();
-        // setList({...list, count: num})
-        
-        // console.log(list[0].count);
-        // list.map(usuario => {
-        //     (usuario.id===id) ? usuario.count + nro : console.log("No se pudo hacer la suma");
-        // })
-        list.map(usuario => {
-            typeof list === 'object' ? usuario.count + nro : console.log("No se pudo hacer la suma");
-        })
-        // console.log(list[id].count+nro)
-        setList({...list[id].count+nro, nro})
+
+        let num = list[id].count + nro;
+        // console.log(num);
+        setList(list[id].count=num);
+        console.log(list);
     }
-    // 
+     
     useEffect(() => {
       sumatoria();
-      
-    }, [])
+      console.log('hola Geroi');
+      return (
+        console.log('Return')
+      )
+    }, []);
     
     return (
         <div>
